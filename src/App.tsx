@@ -391,7 +391,7 @@ function App() {
                   <MapPin className="w-6 h-6 text-green-400 mr-4" />
                   <div>
                     <div className="font-semibold">Address</div>
-                    <div className="text-blue-100">123 Dairy Farm Road<br />Canterbury, New Zealand 8001</div>
+                    <div className="text-blue-100">Level 12, 7 waterloo<br />Quay, Willington, New Zealand 8001</div>
                   </div>
                 </div>
               </div>
