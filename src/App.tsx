@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown, Phone, Mail, MapPin, Award, Shield, Leaf, Users } from 'lucide-react';
+import logo from "./logo.png";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,8 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-blue-900">NZ Pure Dairy</h1>
+              <img src={logo} className="App-logo" alt="logo" style={{height:50, width:100}} />
+              
             </div>
 
             {/* Desktop Menu */}
@@ -62,7 +64,7 @@ function App() {
         <div 
           className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")'
+            backgroundImage: 'url("https://images.pexels.com/photos/5618041/pexels-photo-5618041.jpeg")'
           }}
         >
           <div className="text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
@@ -112,7 +114,7 @@ function App() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.pexels.com/photos/2587312/pexels-photo-2587312.jpeg" 
                 alt="New Zealand dairy farm"
                 className="rounded-lg shadow-xl"
               />
@@ -157,7 +159,7 @@ function App() {
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <img 
-                src="https://images.pexels.com/photos/1020323/pexels-photo-1020323.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg" 
                 alt="Artisan Cheese"
                 className="w-full h-48 object-cover"
               />
@@ -175,7 +177,7 @@ function App() {
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <img 
-                src="https://images.pexels.com/photos/6542679/pexels-photo-6542679.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.pexels.com/photos/5191827/pexels-photo-5191827.jpeg" 
                 alt="Greek Yogurt"
                 className="w-full h-48 object-cover"
               />
@@ -193,7 +195,7 @@ function App() {
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <img 
-                src="https://images.pexels.com/photos/2113988/pexels-photo-2113988.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.pexels.com/photos/3821250/pexels-photo-3821250.jpeg" 
                 alt="Butter"
                 className="w-full h-48 object-cover"
               />
