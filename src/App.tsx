@@ -103,11 +103,11 @@ function App() {
               
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">30+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-600 mb-2">150+</div>
+                  <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
                   <div className="text-gray-600">Partner Farms</div>
                 </div>
               </div>
@@ -391,7 +391,7 @@ function App() {
                   <MapPin className="w-6 h-6 text-green-400 mr-4" />
                   <div>
                     <div className="font-semibold">Address</div>
-                    <div className="text-blue-100">Level 12, 7 waterloo<br />Quay, Willington, New Zealand 8001</div>
+                    <div className="text-blue-100">Level 12, 7 waterloo<br />Quay, Willington, New Zealand </div>
                   </div>
                 </div>
               </div>
