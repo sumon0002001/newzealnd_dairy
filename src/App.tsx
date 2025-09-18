@@ -17,7 +17,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img src={logo} className="App-logo" alt="logo" style={{height:50, width:100}} />
+              <img src={logo} className="App-logo" alt="logo" style={{height:50, width:50}} />
               
             </div>
 
@@ -383,7 +383,7 @@ function App() {
                   <Mail className="w-6 h-6 text-green-400 mr-4" />
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-blue-100">info@nzpuredairy.co.nz</div>
+                    <div className="text-blue-100">info@nzpurdairy.com</div>
                   </div>
                 </div>
                 
